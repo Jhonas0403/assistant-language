@@ -5,6 +5,7 @@
  * @format
  */
 import HomeController from './modules/Home/HomeController';
+import Embebido from './modules/embebido/embebido';
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
@@ -94,6 +95,7 @@ function App(): React.JSX.Element {
     //   </ScrollView>
     // </SafeAreaView>
     <HomeController/>
+    // <Embebido/>
   );
 }
 
